@@ -1,0 +1,675 @@
+body{
+   margin: auto;
+    background:rgba(0,0,0,0.8);
+     
+   }
+   
+   .Home-screen {
+       width: 400px;
+       height: 840px;
+       border: 2px solid #FFFFFF
+       
+   }
+   nav {
+       width: 1400px;
+       height: 72px;
+       background: rgba(15,15,15,0.9);
+   }
+   .phone {
+       width: 200px;
+       height: 32px;
+       padding-left: 32px;
+       padding-top: 15px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 32px;
+       letter-spacing: 0em;
+       color: white;
+   }
+   .order-now {
+       width: 170px;
+       height: 72px;
+       position: relative;
+       top: -47px;
+       left: 978px;
+       background: rgba(0, 0, 0, 1);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+   }
+   .order-now img {
+           width:31px;
+           height:27px;
+           margin-right:7px;
+          
+   }
+       .order-now button {
+           font-family: 'Catamaran', sans-serif;
+           color: white;
+           border: none;
+           background: rgba(0, 0, 0, 1);
+           font-size: 14px;
+           font-weight: 700;
+           line-height: 32px;
+           letter-spacing: 0em;
+           cursor:pointer;
+          
+       }
+   .takeout {
+       width: 227px;
+       height: 72px;
+       position: relative;
+       left: 1150px;
+       top: -119px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: rgba(30, 30, 30, 1);
+   }
+       .takeout img {
+           width: 33px;
+           height: 26px;
+           margin-right: 7px;
+       }
+       .takeout button {
+           font-family: 'Catamaran', sans-serif;
+           font-size: 14px;
+           font-weight: 700;
+           line-height: 32px;
+           letter-spacing: 0em;
+           color: white;
+           border: none;
+           background: rgba(30, 30, 30, 1);
+           cursor:pointer;
+       }
+          #one:hover{
+              color:blue;
+   
+          }
+   .logo  {
+       position: relative;
+       width: 160px;
+       height: 54px;
+       top: 80px;
+       left: 120px;
+   }
+   .properties {
+       font-family: 'Catamaran', sans-serif;
+       font-size: 14px;
+       font-weight: 700;
+       line-height: 32px;
+       letter-spacing: 0em;
+       text-align: right;
+       word-spacing:10px;
+       color:white;
+       padding-right:100px;
+   }
+   .bghero {
+       width: 1400px;
+       height: 768px;
+       background:url(/images/bgHero.jpeg ) ;
+       color:white;
+   }
+   .content{
+       position:relative;
+       top:200px;
+       left:146px;
+   }
+    .content h2 {
+           width: 730px;
+           height: 100px;
+           font-family: 'Caudex', serif;
+           font-size: 72px;
+           font-weight: 400;
+           line-height: 72px;
+           letter-spacing: 0em;
+           
+      }
+       .content p {
+           font-family: 'Catamaran', sans-serif;
+           font-size: 20px;
+           font-weight: 400;
+           line-height: 32px;
+           letter-spacing: 0em;
+           width:500px;
+       }
+       .content button {
+           width: 190px;
+           height: 56px;
+           border-radius: 4px;
+           font-family: 'Catamaran', sans-serif;
+           font-size: 16px;
+           font-weight: 700;
+           line-height: 32px;
+           letter-spacing: 0em;
+           text-align: center;
+           cursor:pointer;
+       }
+   
+   .Second-page {
+       width: 1280px;
+       height: 1800px;
+       
+   }
+   .content2 {
+       background: url(/images/aboutImage2.jpeg) no-repeat right;
+   }
+   
+   .content2 h2 {
+       width: 540px;
+       height: 112px;
+       position: relative;
+       top: 100px;
+       left: 145px;
+       font-family: 'Caudex', serif;
+       font-size: 56px;
+       font-weight: 400;
+       line-height: 56px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   
+   .day {
+       
+       width: 400px;
+       height: 24px;
+       word-spacing:100px;
+       position: relative;
+       top: 80px;
+       left: 145px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(103, 103, 103, 1);
+   }
+   .time {
+       width: 500px;
+       height: 24px;
+       word-spacing: 50px;
+       position: relative;
+       top: 65px;
+       left: 145px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 24px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   .text {
+       width: 510px;
+       height: 270px;
+       position:relative;
+       top: 70px;
+       left: 145px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   
+       .number img {
+           width: 20px;
+           height: 20px;
+           position: relative;
+           top: 20px;
+           left: 145px;
+           color: rgba(103, 103, 103, 1);
+       }
+       .number p {
+           width: 500px;
+           height: 40px;
+           position: relative;
+           top:-22px;
+           left: 170px;
+           font-family: 'Catamaran', sans-serif;
+           font-size: 20px;
+           font-weight: 400;
+           line-height: 24px;
+           letter-spacing: 0em;
+           color: rgba(255, 255, 255, 1);
+       }
+   .location img {
+       width: 20px;
+       height: 20px;
+       position: relative;
+       top: -35px;
+       left: 145px;
+       color: rgba(103, 103, 103, 1);
+   }
+   .location p {
+       width: 500px;
+       height: 40px;
+       position: relative;
+       top: -80px;
+       left: 170px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 20px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   .content2 button {
+       width: 255px;
+       height: 56px;
+       position:relative;
+       top: -59px;
+       left: 145px;
+       border-radius: 4px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 32px;
+       letter-spacing: 0em;
+       text-align: center;
+       cursor:pointer;
+   }
+   .content3 {
+       width: 1110px;
+       height: 824px;
+       position:relative;
+       left:145px;
+       
+   }
+   #first {
+       width: 207px;
+       height: 106px;
+       position: relative;
+       top: -700px;
+       left: 300px;
+       font-family: 'Caudex', serif;
+       font-size: 32px;
+       font-weight: 400;
+       line-height: 32px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   #second {
+       width: 162px;
+       height: 64px;
+       position:relative;
+       top: -600px;
+       left: 880px;
+       font-family: 'Caudex', serif;
+       font-size: 32px;
+       font-weight: 400;
+       line-height: 32px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   #third {
+       width: 207px;
+       height: 106px;
+       position:relative;
+       top: -450px;
+       left: 50px;
+       font-family: 'Caudex', serif;
+       font-size: 32px;
+       font-weight: 400;
+       line-height: 32px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   .content4 {
+       width: 1200px;
+       height: 800px;
+   }
+   .host {
+       float:left;
+       width: 685px;
+       height: 544px;
+       margin-top:80px;
+       margin-right:20px;
+   }
+   .Article {
+       
+     position:relative;
+     left:100px;
+     top:300px;
+   }
+    .Article h2 {
+        
+           font-family: 'Caudex', serif;
+           font-size: 40px;
+           font-weight: 400;
+           line-height: 40px;
+           letter-spacing: 0em;
+           color: rgba(255, 255, 255, 1);
+       }
+       .Article p {
+   
+           font-family: 'Catamaran', sans-serif;
+           font-size: 16px;
+           font-weight: 400;
+           line-height: 24px;
+           letter-spacing: 0em;
+           color: rgba(255, 255, 255, 1);
+       }
+       .Article button {
+           width: 255px;
+           height: 56px;
+           border-radius: 4px;
+           cursor:pointer;
+       }
+   .content5 {
+       width: 1114px;
+       height: 418px;
+       position:relative;
+       top:-100px;
+        left: 145px;
+   }
+       .content5 h2 {
+           width: 445px;
+           height: 131px;
+           font-family: 'Caudex', serif;
+           font-size: 40px;
+           font-weight: 400;
+           line-height: 40px;
+           letter-spacing: 0em;
+           color: rgba(255, 255, 255, 1);
+       }
+       .content5 p {
+           width: 544px;
+           height: 113px;
+           position:relative;
+           left: 715px;
+           top:-150px;
+           font-family: 'Catamaran', sans-serif;
+           font-size: 16px;
+           font-weight: 400;
+           line-height: 24px;
+           letter-spacing: 0em;
+           color: rgba(255, 255, 255, 1);
+       }
+   .last {
+       background:url(/images/Rectangle\ 17\ \(1\).jpeg);
+       width: 350px;
+       height: 255px;
+       position:relative;
+        left: 750px;
+        top:-360px;
+        border:2px solid black;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+   }
+       .last h3 {
+           width: 293px;
+           height: 106px;
+           font-family: 'Caudex', serif;
+           font-size: 24px;
+           font-weight: 400;
+           line-height: 32px;
+           letter-spacing: 0em;
+           color:  rgba(255, 255, 255, 1);
+       }
+       .last button {
+           width: 255px;
+           height: 56px;
+           border-radius: 4px;
+           cursor: pointer;
+       }
+   .footer {
+       width: 1400px;
+       height:200px; 
+       background:black;
+       border-radius:4px;
+   }
+   
+   .logoo2 img {
+       width: 127px;
+       height: 43px;
+       position:relative;
+       top: 50px;
+       left: 145px;
+   
+   }
+   .day2 {
+       width: 400px;
+       height: 24px;
+       word-spacing: 50px;
+       position: relative;
+       top: -20px;
+       left: 400px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(103, 103, 103, 1);
+   }
+   .time2 {
+       width: 400px;
+       height: 24px;
+       word-spacing: 50px;
+       position: relative;
+       top: -10px;
+       left: 400px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color: rgba(255, 255, 255, 1);
+   }
+   #location{
+       position:relative;
+       top:-100px;
+       left:750px;
+   }
+   #number {
+       position: relative;
+       left: 550px;
+       top:-50px;
+   
+   }
+   .title {
+       width: 202px;
+       height: 24px;
+       position: relative;
+       top:-250px;
+       left: 145px;
+       font-family: 'Catamaran', sans-serif;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       color:  rgba(103, 103, 103, 1);
+   }
+   .property {
+       font-family: 'Catamaran', sans-serif;
+       font-size: 14px;
+       font-weight: 700;
+       line-height: 32px;
+       letter-spacing: 0em;
+       text-align: right;
+       word-spacing: 10px;
+       color: white;
+       padding-right: 100px;
+       position:relative;
+       top:-100px;
+   }
+   .nav2{
+    background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(9,9,121,1) 35%,rgba(7,106,126) 100%);
+    height: 80px;
+    width: 100%;
+    display: none;
+   }
+   .nav2 ul{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+    display: none;
+    
+   }
+   .nav2 ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+    
+   }
+   .nav2 ul li a{
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+   }
+  
+  
+   .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+   }
+   #check{
+    display: none;
+   }
+   .mobile-nav{
+    display: none;
+   }
+   
+   @media(max-width:800px){
+    
+
+    .nav2{
+        width: 550px;
+    }
+    .nav2 ul{
+       display: block;
+        
+       }
+    .checkbtn{
+        display: block;
+    }
+    .active:hover{
+        color: white;
+        font-weight: 100px;
+        background: linear-gradient(rgba(2,0,2,0.21) 40%,rgba(0,242,255,0.238) 100%);
+        transition: 0.5s;
+        box-shadow: 1px 1px 1px 1px rgba(2,2,92,0.354);
+       }
+
+    nav{
+        width: 650px;
+    }
+    body{
+        background: black ;
+    }
+    .phone{
+        display: none;
+    }
+    .order-now{
+        display: none;
+    }
+    .takeout{
+        display: none;
+    }
+    .properties{
+        display: none;
+    }
+    .bghero{
+        background-size: 550px ;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        width: 70px;
+        height: 33px;
+        top: -70px;
+        left: 10px;
+
+    }
+    .content h2 {
+        width: 349px;
+        height: 136px;
+        position:relative;
+        top:50px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+         letter-spacing: 0em;
+        text-align: center;
+    }
+.content p{
+    text-align: center;
+    width: 350px;
+    height: 123px;
+}
+.content2{
+    background-size:  513px;
+    background-position: 5px -30px;
+   
+}
+.content2 h2{
+    width: 349px;
+    height: 76px;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.text {
+    width: 349px;
+    height: 346px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.number p {
+    width: 296px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.location p {
+    width: 296px;
+    height: 40px;
+    
+   }
+   .content4{
+    display: flex;
+    flex-direction: column;
+   }
+  .Article h2{
+    width: 360px;
+    height: 131px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Article{
+    top:-500px
+  }
+  .host img{
+    width: 550px;
+       height: 500px;
+       position: relative;
+       top:450px
+  }
+  .Article p {
+    width: 400px;
+    height: 160px;
+    font-size: 16px;
+    padding-top: -50px;
+}
+.Article button{
+    width: 300px;
+}
+.content5-2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+   
+}
+   
